@@ -1,19 +1,19 @@
 #!/usr/bin/env node
-var config = require('../config');
 
 /**
  * Module dependencies.
  */
 
 var app = require('../app');
-var debug = require('debug')('api-gateway-wk2:server');
+var debug = require('debug')('api-gateway:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
-
+var config = require('../config');
 var port = normalizePort(config.web.port);
+
 app.set('port', port);
 
 /**

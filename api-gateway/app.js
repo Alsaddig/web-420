@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  authController.js
+; Author: Alsaddig Ibrahim
+; Date:   October 19 2019
+: Last Update: 08 June 2019
+; Description: part of api-gateway
+;===========================================
+*/
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -5,7 +15,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-
 var apiCatalog = require('./routes/api-catalog');
 
 var mongoose = require('mongoose');
@@ -13,6 +22,7 @@ mongoose.Promise = require('bluebird');
 /**
  * Database connection
 */
+
 var mongoDB = 'mongodb+srv://admin:admin@api-gateway-1piyt.mongodb.net/test?retryWrites=true&w=majority)';
 mongoose.connect(mongoDB, {
   useUnifiedTopology: true, useNewUrlParser: true, promiseLibrary: require('bluebird')
