@@ -6,6 +6,7 @@
 // ; Description: part of api-gateway
 // ;===========================================
 // */
+
 var jwt = require('jsonwebtoken');
 var config = require('./config');
 

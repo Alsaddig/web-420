@@ -1,51 +1,23 @@
-<<<<<<< HEAD
 {
-  "name": "api-gateway",
+   "name": "api-gateway",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www"
   },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "bluebird": "^3.5.4",
-    "body-parser": "^1.19.0",
-    "cookie-parser": "~1.4.4",
-    "debug": "^2.6.9",
-    "ejs": "^2.6.2",
-    "express": "^4.16.4",
-    "http-errors": "^1.6.3",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.5.5",
-    "morgan": "~1.9.1",
-    "nodemon": "^1.19.0"
-  }
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "bluebird": "^3.5.4",
+      "body-parser": "^1.19.0",
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "ejs": "~2.6.1",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.5.5",
+      "morgan": "~1.9.1",
+      "nodemon": "^1.19.0"
+   }
 }
-=======
-{
-  "name": "api-gateway",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www",
-    "devstart": "nodemon ./bin/www"
-  },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "bluebird": "^3.5.1",
-    "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "~2.5.7",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.0.3",
-    "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
-  },
-  "devDependencies": {
-    "nodemon": "^1.14.12"
-  }
-}
->>>>>>> 42a34c39f2f80046b43a6d2cd1dbb9e8845c7a8f
