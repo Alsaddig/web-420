@@ -11,7 +11,7 @@ var jwt = require('jsonwebtoken');
 var config = require('./config');
 
 /**
- * Check the HTTP header for a valid JSON web token
+ * Check the HTTP header for a valid JSON
  * @param req
  * @param res
  * @param next

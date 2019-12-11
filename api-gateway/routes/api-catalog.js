@@ -4,7 +4,7 @@
 ; Author: Alsaddig Ibrahim
 ; Date:   October 19 2019
 : Last Update: 08 June 2019
-; Description: part of api-gateway
+; Description: api-gateway
 ;===========================================
 */
 
